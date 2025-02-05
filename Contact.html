@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- boot icon  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- font icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+
+  <header>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <!-- logo -->
+        <a class="navbar-brand ms-5" href="index.html">
+          <img src="images/logo.png" alt="Bootstrap" width="50" height="50">
+        </a>
+        <!-- Toggle button -->
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- home -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto gap-3">
+            <li class="nav-item">
+              <a class="nav-link active  text-light" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="Shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="Blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="About.html">About PEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="Contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <!-- search -->
+          <ul class="navbar-nav mb-2 mb-lg-0 me-5 gap-3">
+            <li class="nav-item">
+              <!-- search trigger -->
+              <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#search"
+                aria-controls="offcanvasRight">Search</button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" href="Login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <!-- cart trigger -->
+              <button class="btn text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#cart"
+                aria-controls="offcanvasRight">Cart <i class="bi bi-0-circle-fill"></i></button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- search offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="search" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header m-2 border-bottom">
+        <i class="bi bi-search ms-2 me-2"></i>
+        <input type="text" class="w-75">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+    </div>
+
+    <!-- cart offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header m-2 border-bottom">
+        <i class="bi bi-bag ms-2 me-3"></i>
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Cart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body text-center">
+        <p class="fs-5 mb-5 mt-5">Your cart is empty</p>
+        <button class="btn btn-dark">START SHOPPING</button>
+      </div>
+    </div>
+
+  </header>
+
+
+  <main class=" mt-5 pt-5">
+
+
+
+  </main>
+
+
+  <footer class="mt-5">
+
+    <!-- shipping -->
+    <div class="d-flex justify-content-center">
+      <p class="fs-1 fw-semibold">Shipping and Other Information</p>
+    </div>
+
+    <!-- information -->
+    <div class="d-flex justify-content-around gap-4 p-2 pt-0 m-5 mt-4">
+
+      <div class="text-center">
+        <i class="fa-solid fa-cube fs-5 mb-3"></i>
+        <h6>Free shipping</h6>
+        <p class="mt-3">Free shipping across Pakistan and returns, customs and duties taxes included.</p>
+      </div>
+
+      <div class="text-center">
+        <i class="fa-solid fa-phone fs-5 mb-3"></i>
+        <h6>Customer service</h6>
+        <p class="mt-3">We are available from monday to friday to answer your questions.</p>
+      </div>
+
+      <div class="text-center">
+        <i class="fa-solid fa-lock fs-5 mb-3"></i>
+        <h6>Secure payment</h6>
+        <p class="mt-3">Your payment information is processed securely.</p>
+      </div>
+
+      <div class="text-center">
+        <i class="fa-regular fa-envelope fs-5 mb-3"></i>
+        <h6>Contact us</h6>
+        <p class="mt-3">Need to contact us ? Just send us an e-mail at <a href="ecom.orders@pel.com.pk"
+            class="text-dark link-underline-secondary">ecom.orders@pel.com.pk</a></p>
+      </div>
+
+    </div>
+
+    <!-- black div -->
+    <div class="d-flex justify-content-around bg-dark text-light gap-5 p-3 pt-5 pb-5 mt-3">
+
+      <div class="w-25">
+        <h6 class="mb-3">About our store</h6>
+        <p>PEL has been operating since 1956 through technical collaboration with AEG. In 1978 it was acquired by Saigol
+          Group and went public a decade later. PEL has consistently cooperated in the advancement and innovation of the
+          engineering sectors of Pakistan.</p>
+      </div>
+
+      <div>
+        <h6 class="mb-3">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li>Catalog</li>
+          <li>Register Complaint</li>
+          <li>Register Complaint</li>
+          <li>Privacy Policy</li>
+          <li>Refund Policy</li>
+          <li>Terms of Service</li>
+        </ul>
+      </div>
+
+      <div>
+        <h6 class="mb-3">Shop</h6>
+        <ul class="list-unstyled">
+          <a href="Air Conditioner.html" class="text-decoration-none text-light">
+            <li>Air Conditioner</li>
+          </a>
+          <a href="Refrigerator.html" class="text-decoration-none text-light">
+            <li>Refrigerator</li>
+          </a>
+          <a href="Deep Freezer.html" class="text-decoration-none text-light">
+            <li>Deep Freezer</li>
+          </a>
+          <a href="Water Dispenser.html" class="text-decoration-none text-light">
+            <li>Water Dispenser</li>
+          </a>
+          <a href="LED TV.html" class="text-decoration-none text-light">
+            <li>LED TV</li>
+          </a>
+          <a href="Microwave Oven.html" class="text-decoration-none text-light">
+            <li>Microwave Oven</li>
+          </a>
+          <a href="Washing Machine.html" class="text-decoration-none text-light">
+            <li>Washing Machine</li>
+          </a>
+          <a href="Air Purifier.html" class="text-decoration-none text-light">
+            <li>Air Purifier</li>
+          </a>
+        </ul>
+      </div>
+
+      <div class="w-25">
+        <h6 class="mb-3">Newsletter</h6>
+        <p>Subscribe to our newsletter for latest updates, promotions, exciting deals and discounts!</p>
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+          <button type="button" class="btn btn-outline-light rounded-0 "><i
+              class="fa-brands fa-facebook-f"></i></button>
+          <button type="button" class="btn btn-outline-light rounded-0 "><i class="fa-brands fa-instagram"></i></button>
+          <button type="button" class="btn btn-outline-light rounded-0 "><i class="fa-brands fa-youtube"></i></button>
+          <button type="button" class="btn btn-outline-light rounded-0 "><i
+              class="fa-brands fa-linkedin-in"></i></button>
+        </div>
+        <div>
+          <img src="images/footer.png" alt="">
+        </div>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
